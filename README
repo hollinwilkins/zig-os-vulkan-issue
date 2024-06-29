@@ -1,0 +1,11 @@
+Run `zig build` to see the following error:
+
+```
+zig/0.14.0-dev.130+cb308ba3a/files/lib/std/Target/spirv.zig:2086:9: error: Cannot perform pointer cast: '*const u8' to '[*]const u8'
+    pub const generic = CpuModel{
+    ~~~~^~~~~
+error: the following command failed with 1 compilation errors:
+```
+
+
+Tested with `0.13.0` and `0.14.0-dev.130+cb308ba3a`.
