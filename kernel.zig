@@ -1,2 +1,2 @@
-pub fn main_shader() void {
+export fn main_shader() void {
 }
